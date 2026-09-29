@@ -95,22 +95,6 @@
 📁 **Le cerveau généré (.onnx ou .nn)** : 🔴 LIEN À REMPLIR  
 📁 **Captures d'écran TensorBoard** : 🔴 LIEN À REMPLIR
 
-### 🏛️ Temples Maya
-**Cours** : https://github.com/simoninithomas/unity_ml_agents_course
-
-📁 **Cube sauteur de mur : fichier yaml + répertoire results** : 🔴 LIEN À REMPLIR  
-📁 **Pyramides (Curious Agent) : fichier yaml + répertoire results** : 🔴 LIEN À REMPLIR  
-📁 **Aventure Maya : fichier yaml + répertoire results** : 🔴 LIEN À REMPLIR
-
-### ⚽ Équipe Soccer
-**Cours** : https://huggingface.co/learn/deep-rl-course/unit5/introduction
-
-**Mon compte Hugging Face** : 🔴 LIEN À REMPLIR  
-📁 **Snowball Target : mon modèle publié sur le Hub** : 🔴 LIEN À REMPLIR  
-📁 **Pyramides : mon modèle publié sur le Hub** : 🔴 LIEN À REMPLIR
-
-> **Remise (pour tous les ateliers ML-Agents)** : voir le guide Expérience ML-Agent lié dans l'énoncé.
-
 ---
 
 ## 🟨 SÉRIE OR - L'agent cognitif (3 %)
