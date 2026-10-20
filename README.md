@@ -2,13 +2,13 @@
 
 > **Énoncé complet** : https://intelligence.projet.autos/labo-agents/  
 > **Remise : 7 jours après chaque labo** (dates dans le calendrier des rencontres)  
-> **Total du module : 10 %** = série noire 3 % + série rouge 4 % + série or 3 %
+> **Total du module : 10 %** = série noire 3 % + série rouge 4 % + série violette 3 %
 
 | Série | L'agent | Points | Règle |
 |---|---|---|---|
 | ⬛ Noire | déterministe | 3 % | les 2 labos obligatoires |
 | 🟥 Rouge | entraîné | 4 % | 1 labo au choix |
-| 🟨 Or | cognitif | 3 % | obligatoire |
+| 🟪 Violette | cognitif | 3 % | obligatoire |
 
 ---
 
@@ -29,25 +29,11 @@
 - Listez les événements ? 🔴 À COMPLÉTER
 - Quel événement pourrait-on ajouter ? 🔴 À COMPLÉTER
 
-#### Partie 3 : Parsing (FSM)
-**Outils** : https://ivanzuzak.info/noam/webapps/fsm_simulator/ , https://madebyevan.com/fsm/ ou https://app.diagrams.net/
-
-📁 **Image de la machine d'états `if(a==b)`** : 🔴 LIEN VERS IMAGE GITHUB À REMPLIR  
-📁 **Image de la machine d'états finale (`if(false)`, `if(0)`)** : 🔴 LIEN VERS IMAGE GITHUB À REMPLIR
-
-> **Note :** placez vos images dans votre dépôt GitHub  
-> **Option 1 - Lien simple :** `[Voir l'image](chemin/vers/image.png)`  
-> **Option 2 - Afficher l'image :** `![Description](chemin/vers/image.png)`
-
-**📑 Explication à ajouter :**
-- Comment améliorer le programme en tolérant des espaces ? 🔴 À COMPLÉTER
-
 ---
 
 ### 👻 LABO PACMAN (2 %)
 
 **Code de départ** : https://intelligence.projet.autos/labo-agents/pacman-depart.zip (le Pacman de Berkeley, `pac3man`, corrigé pour Python 3)  
-📁 **Mon code GitHub (le Pacman modifié)** : 🔴 LIEN À REMPLIR
 
 #### Partie 1 : Reverse engineering du code
 📁 **Diagramme UML de l'héritage des agents** : 🔴 LIEN VERS IMAGE GITHUB À REMPLIR
@@ -78,6 +64,19 @@
 🔴 À COMPLÉTER ICI (par exemple VUE, SEUL = action au hasard, PROCHE = FUIR...)
 ```
 
+#### Partie 3 : Parsing (FSM)
+**Outils** : https://ivanzuzak.info/noam/webapps/fsm_simulator/ , https://madebyevan.com/fsm/ ou https://app.diagrams.net/
+
+📁 **Image de la machine d'états `if(a==b)`** : 🔴 LIEN VERS IMAGE GITHUB À REMPLIR  
+📁 **Image de la machine d'états finale (`if(false)`, `if(0)`)** : 🔴 LIEN VERS IMAGE GITHUB À REMPLIR
+
+> **Note :** placez vos images dans votre dépôt GitHub  
+> **Option 1 - Lien simple :** `[Voir l'image](chemin/vers/image.png)`  
+> **Option 2 - Afficher l'image :** `![Description](chemin/vers/image.png)`
+
+**📑 Explication à ajouter :**
+- Comment améliorer le programme en tolérant des espaces ? 🔴 À COMPLÉTER
+
 ---
 
 ## 🟥 SÉRIE ROUGE - L'agent entraîné (4 %, un labo au choix)
@@ -95,18 +94,34 @@
 📁 **Le cerveau généré (.onnx ou .nn)** : 🔴 LIEN À REMPLIR  
 📁 **Captures d'écran TensorBoard** : 🔴 LIEN À REMPLIR
 
+### 🏛️ Temples Maya
+**Cours** : https://github.com/simoninithomas/unity_ml_agents_course
+
+📁 **Cube sauteur de mur : fichier yaml + répertoire results** : 🔴 LIEN À REMPLIR  
+📁 **Pyramides (Curious Agent) : fichier yaml + répertoire results** : 🔴 LIEN À REMPLIR  
+📁 **Aventure Maya : fichier yaml + répertoire results** : 🔴 LIEN À REMPLIR
+
+### ⚽ Équipe Soccer
+**Cours** : https://huggingface.co/learn/deep-rl-course/unit5/introduction
+
+**Mon compte Hugging Face** : 🔴 LIEN À REMPLIR  
+📁 **Snowball Target : mon modèle publié sur le Hub** : 🔴 LIEN À REMPLIR  
+📁 **Pyramides : mon modèle publié sur le Hub** : 🔴 LIEN À REMPLIR
+
+> **Remise (pour tous les ateliers ML-Agents)** : voir le guide Expérience ML-Agent lié dans l'énoncé.
+
 ---
 
-## 🟨 SÉRIE OR - L'agent cognitif (3 %)
+## 🟪 SÉRIE VIOLETTE - L'agent cognitif (3 %)
 
 **Modèle de langage utilisé** : 🔴 À COMPLÉTER (local avec Ollama : quel modèle ? ou API : quel fournisseur ?)  
 ⚠️ **Aucune clé d'API dans ce dépôt** : variable d'environnement ou fichier ignoré par Git.
 
-### Partie 1 : Les outils (boucle ReAct)
+### Partie 1 : Les outils (boucle ReAct) - 1 %
 📁 **`agent.py` et `prix.txt`** : 🔴 LIEN À REMPLIR  
 📁 **Transcription console où l'agent déclenche un outil de lui-même** : 🔴 LIEN À REMPLIR
 
-### Partie 2 : La mémoire (gestion du contexte)
+### Partie 2 : La mémoire (gestion du contexte) - 1 %
 📁 **Transcription des 8 tours (budget affiché, résumé visible)** : 🔴 LIEN À REMPLIR
 
 📑 **Que perd-on dans un résumé, et comment le choisir ?**
@@ -114,7 +129,7 @@
 🔴 À COMPLÉTER ICI
 ```
 
-### Partie 3 : Le harnais (sécurité)
+### Partie 3 : Le harnais (sécurité) - 1 %
 📁 **Code du harnais (liste blanche, lecture seule, confirmation)** : 🔴 LIEN À REMPLIR  
 📁 **`journal.txt` de l'attaque bloquée (`piege.txt`)** : 🔴 LIEN À REMPLIR
 
